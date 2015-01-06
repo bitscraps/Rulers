@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rulers/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Rulers (Graham Hadgraft"
+  spec.name          = "rulers"
   spec.version       = Rulers::VERSION
   spec.authors       = ["Graham Hadgraft"]
   spec.email         = ["graham.hadgraft@gmail.com"]
-  spec.summary       = %q{My version of rulers from Rebuilding Rails}
+  spec.summary       = %q{Rulers from Rebuilding Rails}
   spec.description   = %q{My version of rulers from Rebuilding Rails}
-  spec.homepage      = ""
+  spec.homepage      = "http://www.grahamhadgraft.co.uk"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
